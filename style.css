@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(203, 211, 219);
+    
+}
+
+.canvas{
+    width: 500px;
+    height: 500px;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.yes{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+}
+
+.elements{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 50px;
+
+    
+}
+
+button{
+    border: 0px;
+    background-color: orange;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10%;
+}
